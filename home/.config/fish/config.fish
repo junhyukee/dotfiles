@@ -17,7 +17,12 @@ alias gaa="git add -A"
 alias tma="tmux attach -t"
 alias tmls="tmux ls"
 alias tmnew="tmux new -s"
+alias tmks="tmux kill-ses -t"
 alias scf="source ~/.config/fish/config.fish"
 alias ocf="vim ~/.config/fish/config.fish"
 
 . "$HOME/.homesick/repos/homeshick/homeshick.fish"
+
+set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
+set -g theme_date_format "+%a %H:%M %p"
+
