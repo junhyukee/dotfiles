@@ -18,6 +18,7 @@ alias tma="tmux attach -t"
 alias tmls="tmux ls"
 alias tmnew="tmux new -s"
 alias tmks="tmux kill-ses -t"
+alias tmq="tmux kill-server"
 alias scf="source ~/.config/fish/config.fish"
 alias ocf="vim ~/.config/fish/config.fish"
 
